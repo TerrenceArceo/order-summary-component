@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: url(../public/images/pattern-background-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: rgba(219, 229, 255);
+}
