@@ -16,6 +16,8 @@ body {
     width: 90%;
     margin: 0 auto;
     background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
 }
 
 .header {
@@ -23,9 +25,20 @@ body {
     width: 100%;
 }
 
-.header h1 { color: #000; }
+.header h1 { 
+    color: #000; 
+    margin-top: 1em;
+}
 
-.header p { padding: 0 2em; }
+.header p { 
+    padding: 0 2em;
+    margin-bottom: 2.5em;
+}
+
+.hero {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 /* -------- */
 /* Plan info */
@@ -36,6 +49,7 @@ body {
     margin: 0 auto;
     background-color: rgba(219, 229, 255, 0.2);
     border-radius: 10px;
+    margin-bottom: 3em;
 }
 
 .music-icon { margin-right: 15px; }
@@ -50,3 +64,39 @@ body {
 .price { margin-right: auto; }
 .price > h4 { margin-bottom: 0; }
 .price > p { margin-top: 5px; }
+
+
+/* -------- */
+/* Payment button */
+/* -------- */
+
+.payment-buttons {
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.proceed {
+    width: 100%;
+    font-weight: 600;
+    padding: 1em;
+    font-size: 1rem;
+    border: none;
+    background-color: #382ae1;
+    color: #fff;
+    border-radius: 11px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    margin-bottom: 2em;
+}
+
+.cancel {
+    background-color: transparent;
+    border: none;
+    color: #717fa6;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 3em;
+}
+
