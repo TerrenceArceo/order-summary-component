@@ -1,10 +1,52 @@
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
+
+img { max-width: 100%; }
 
 body {
     margin: 0;
-    background: url(../public/images/pattern-background-desktop.svg) no-repeat;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
     background-size: cover;
     background-color: rgba(219, 229, 255);
+    color: #717fa6;
+    font-family: 'Red Hat Display', sans-serif;
 }
+
+.container {
+    max-width: 450px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+}
+
+.header h1 { color: #000; }
+
+.header p { padding: 0 2em; }
+
+/* -------- */
+/* Plan info */
+/* -------- */
+
+.container-plan {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(219, 229, 255, 0.2);
+    border-radius: 10px;
+}
+
+.music-icon { margin-right: 15px; }
+
+.plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5em;
+}
+
+.price { margin-right: auto; }
+.price > h4 { margin-bottom: 0; }
+.price > p { margin-top: 5px; }
