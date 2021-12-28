@@ -9,6 +9,10 @@ body {
     background-color: rgba(219, 229, 255);
     color: #717fa6;
     font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
