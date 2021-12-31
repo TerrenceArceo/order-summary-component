@@ -5,7 +5,7 @@ img { max-width: 100%; }
 body {
     margin: 0;
     background: url(./images/pattern-background-desktop.svg) no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: rgba(219, 229, 255);
     color: #717fa6;
     font-family: 'Red Hat Display', sans-serif;
@@ -104,3 +104,11 @@ body {
     margin-bottom: 3em;
 }
 
+
+@media (max-width: 700px) {
+    body {
+        background: url(./images/pattern-background-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: rgba(219, 229, 255);
+    }
+}
